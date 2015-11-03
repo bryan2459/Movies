@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/webView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:layout_alignParentStart="true" />
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip" >
+
+        >
+        <TableRow>
+
+
+
+            <ImageButton
+
+
+                android:id="@+id/nextbut"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:paddingLeft="10dip"
+                android:paddingRight="10dip"
+                android:background="@drawable/play" />
+
+
+            <TextView android:text="" android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/idTrailer"/>
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
